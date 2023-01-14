@@ -1,0 +1,243 @@
+body {
+    background-image: url(window.jpg);
+
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+
+    z-index: 5;
+}
+
+.burgir {
+    background-color: black;
+    z-index: 1;
+    border: 1px solid white;
+}
+
+.contactmain {
+    height: 150vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+.puto{
+    height: 40vh;
+}
+.puto2{
+    height: 45vh;
+}
+.huto{
+    height: 70vh;
+
+}
+.huto2{
+    height: 100vh;
+    
+
+}
+
+.sudo{
+    box-shadow: 0px 2px 24px white;
+    
+}
+.sudo2{
+    box-shadow: 0px 2px 24px red;
+}
+.contactmain2 {
+    background-image: url(contactbackground.gif);
+    position: relative;
+    top: 14vh;
+    /* height: 30vh; */
+    /* height: 60vh; */
+    width: 60vw;
+    overflow: hidden;
+    transition-duration: 1s;
+
+
+}
+.contactmain3{
+    background-image: url(contactbackground.gif);
+    position: relative;
+    /* top: 14vh; */
+    /* height: 30vh; */
+    /* height: 60vh; */
+    margin-top: 20vh;
+    width: 60vw;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+.contacthead2{
+    position: relative;
+    top: 20px;
+}
+
+.c-m {
+    /* margin-top: 15vh; */
+
+    height: 70px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+
+}
+
+/* .mainclick2{
+    margin-top: 20vh;
+
+    height: 70px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+} */
+.contacticons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: initial;
+    margin-top: 25vh;
+}
+.contacticons2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink: initial;
+    margin-top: 25vh;
+}
+
+
+.adress{
+
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+}
+
+
+.calllog {
+
+    height: 65px;
+    width: 65px;
+}
+.m-w{
+    width: 100px;
+}
+.m-b {
+    background-color:  red;
+    border: 1px solid red;
+    border-radius: 20px;
+
+    height: 32px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    right: 0px;
+    /* font-family: 'Bangers', cursive; */
+}
+.m-w2{
+    width: 100px;
+}
+.m-b2 {
+    background-color:  red;
+    border: 1px solid red;
+    border-radius: 20px;
+
+    height: 32px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    right: 0px;
+    /* font-family: 'Bangers', cursive; */
+}
+
+.c-n {
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.c-1 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.c-1-2 {
+    display: flex;
+    align-items: center;
+   
+}
+
+.m-h {
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.m-h2{
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.m-p {
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.m-p2 {
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.contacthead {
+    position: relative;
+    top: 20px;
+}
+.frmo{
+    position: relative;
+    left: 0px;
+    width:100vw; 
+    height:30vh;
+}
+@media only screen and (max-width:478px){
+    .hum-b{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .c-n {
+        font-size: small;
+    }
+    
+    .c-1 {
+        font-size: small;
+        
+    }
+    
+    .c-1-2 {
+        font-size: small;
+       
+    }
+    .calllog{
+        height: 40px;
+        width: 40px;
+    }
+    .huto{
+        height: 80vh;
+    
+    }
+    .huto2{
+        height: 105vh;
+    
+    }
+
+}

@@ -1,0 +1,24 @@
+@media only  screen and (max-width:504px) {
+    .maindescription{
+        margin-left: 30px;
+
+    }
+}
+body{
+    background-color: black;
+}
+.common{
+    height: 40px;
+    width: 40px;
+    margin: 0px 2px;
+}
+.instagram:hover{
+    height: 43px;
+    width: 43px;
+   box-shadow: 0px 2px  white;
+}
+.whatsapp:hover{
+    height: 43px;
+    width: 43px;
+    box-shadow: 0px 2px  white;
+}
